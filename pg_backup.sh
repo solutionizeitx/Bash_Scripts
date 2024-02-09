@@ -24,6 +24,7 @@ if [ "$confirmation" = "YES" ]; then
     echo "Backup completed successfully. Backup file: $BACKUP_FILE"
   else
     echo "Backup failed."
+  fi
 else
   echo "Backup aborted."
 fi
