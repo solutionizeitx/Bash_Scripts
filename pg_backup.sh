@@ -3,7 +3,7 @@
 # Define your PostgreSQL username, database name, and backup file name
 PG_USER="postgres"
 DB_NAME="DATABASE_NAME"
-BACKUP_FILE="backup_$(date +'%d_%b_%Y').sql"
+BACKUP_FILE="backup_$(date +'%d_%b_%Y_%H__%S').sql"
 PASSWORD="PASSWORD HERE"
 # Specify the hostname or IP address of your PostgreSQL server
 PG_HOST="localhost"
