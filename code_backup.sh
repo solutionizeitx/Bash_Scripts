@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Define your project directory path
-PROJECT_DIR="/path/to/your/project"
+PROJECT_DIR="/home/bitnami/Projectname"
 
 # Define the backup file name with the current date
-BACKUP_FILE="project_backup_$(date +'%d_%b_%Y').zip"
+BACKUP_FILE="project_backup_$(date +'%d_%b_%Y_%H__%S').zip"
 
 # Ask for confirmation before proceeding
 read -rp "Do you want to create a backup of the project directory? (yes/YES): " confirmation
